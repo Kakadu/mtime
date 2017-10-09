@@ -5,6 +5,10 @@
   ---------------------------------------------------------------------------*)
 
 (* Time scale conversion *)
+module Int64 = struct
+  include Int64
+  let equal (a:t) (b:t) = (Pervasives.compare a b = 0)
+end
 
 let ns_to_s   = 1e-9
 let us_to_s   = 1e-6

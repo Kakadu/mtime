@@ -7,7 +7,7 @@ dev-repo: "http://erratique.ch/repos/mtime.git"
 bug-reports: "https://github.com/dbuenzli/mtime/issues"
 tags: [ "time" "monotonic" "system" "org:erratique" ]
 license: "ISC"
-available: [ ocaml-version >= "4.03.0"]
+
 depends:
 [
   "ocamlfind" {build}
